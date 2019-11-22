@@ -5,7 +5,7 @@
 /*------------------------------------------------------------------------------*/
 This is the solution i implemented for the Super Simple File Indexer (SSFI).
 
-The following files should be found in the tar packages upon unpacking.
+The following files can be found in the repository.
 
 1. SSFI.cpp       - The coordinator C++ program that creates the File reader thread and the N worker threads and the prints the results once the searching and the parsing is complete
 2. Files.cpp      - Program that provides acces to the list of the file paths found
@@ -34,9 +34,3 @@ After compiling, to run the program use the ./ssfi executable using either of th
 	2. ./ssfi -t N "/path_name"
 
 First option runs with 1 worker thread, Second option runs with N Worker threads. "/path_name" should be replaced by the actual path name.
-
-Compilation is done using C++17 standard.
-
-Tested on Fedora 30. Should work on Ubuntu 16.04 and Ubuntu 18.04. If there are problems running it due to compatability issues, please reach out to me and i will try to fix the issue.
-
-
